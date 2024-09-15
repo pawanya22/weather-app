@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('../src/assets/download.jpeg') no-repeat center center/cover;
+    backdrop-filter: blur(8px); /* For background blur */
+  }
+  
+  .App {
+    width: 100%;  
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .weather-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    min-height: 440px;
+    background: rgba(7, 7, 7, 0.8); /* Glassmorphism background */
+    backdrop-filter: blur(10px); /* Adds the frosted effect */
+    border-radius: 20px;
+    text-align: center;
+    padding-bottom: 32px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+  }
+  
+  .city-search input {
+    margin-top: 30px;
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    outline: none;
+  }
+  
+  .city {
+    background: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    padding: 8px 20px;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+  
+  .city-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .date {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .icon-temp {
+    display: flex;
+    font-size: 3rem;
+    font-weight: 700;
+    align-items: center;
+  }
+  
+  .deg {
+    font-size: 1.5rem;
+    vertical-align: super;
+  }
+  
+  .des-wind {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+  
+  .error-massage {
+    color: #ff6b6b;
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
+  
